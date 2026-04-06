@@ -13,8 +13,8 @@ spec:
         app: html-demo
     spec:
       containers:
-      - name: html-demo2
-        image: arundocker2005/html-demo2:latest
+      - name: html-demo
+        image: arundocker2005/html-demo:latest
         ports:
         - containerPort: 80
 
@@ -30,4 +30,4 @@ spec:
   ports:
   - port: 80
     targetPort: 80
-    nodePort: 30034
+    nodePort: 4045
